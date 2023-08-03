@@ -1,1 +1,1 @@
-# gitlinter
+# itg-python-project-template
