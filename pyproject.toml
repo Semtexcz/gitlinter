@@ -1,13 +1,16 @@
 [tool.poetry]
-name = "gitlinter"
+name = "itg-python-project-template"
 version = "0.1.0"
 description = "Template project for pre-commit."
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{include = "your_package"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
