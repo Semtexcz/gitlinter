@@ -11,7 +11,7 @@ class ExampleClass:
     This class is a simple example for demonstrating Sphinx autodoc.
     """
 
-    def __init__(self, value):
+    def __init__(self, value: Any) -> None:
         """
         Initilize ExampleClass
         :param value: Any value
